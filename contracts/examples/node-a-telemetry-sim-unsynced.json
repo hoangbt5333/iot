@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "device_id": "node-a",
+  "boot_id": "boot-a-0002-3a14",
+  "seq": 17,
+  "timestamp": null,
+  "time_synced": false,
+  "uptime_ms": 85120,
+  "temperature_c": 26.8,
+  "humidity_pct": 58.5,
+  "temp_hum_source": "DHT22",
+  "light_lux": null,
+  "light_raw": 1840,
+  "light_source": "LDR_SIM",
+  "valid": true,
+  "sensor_faults": [],
+  "buffered": true
+}

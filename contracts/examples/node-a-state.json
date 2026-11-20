@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "device_id": "node-a",
+  "boot_id": "boot-a-0001-9f2c",
+  "seq": 45,
+  "timestamp": "2026-11-16T01:40:11Z",
+  "time_synced": true,
+  "uptime_ms": 226120,
+  "device_mode": "MANUAL",
+  "lamp_on": true,
+  "fan_on": false,
+  "sensor_health": "ok",
+  "thresholds": {
+    "light_on_lux": 100.0,
+    "light_off_lux": 150.0,
+    "fan_on_temp_c": 30.0,
+    "fan_off_temp_c": 28.0
+  },
+  "last_command_id": "cmd-nodea-20261116-0001",
+  "dropped_offline_count": 0
+}

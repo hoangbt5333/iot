@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "seq": 1,
+  "timestamp": "2026-11-16T01:39:43Z",
+  "time_synced": true,
+  "uptime_ms": 4870,
+  "role": "security",
+  "board": "esp32dev",
+  "build_env": "real",
+  "firmware_version": "0.1.0-contract-v1",
+  "tls_mode": "mtls_x509",
+  "sensors": [
+    "PIR_HC_SR501",
+    "REED_SWITCH",
+    "HOME_AWAY_SWITCH"
+  ],
+  "actuators": [
+    "BUZZER",
+    "SG90",
+    "STATUS_LED"
+  ],
+  "capabilities": [
+    "security_events_1s",
+    "offline_away_alarm",
+    "command_ack",
+    "offline_ram_ring_buffer"
+  ]
+}

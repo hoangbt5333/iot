@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "device_id": "node-a",
+  "boot_id": "boot-a-0001-9f2c",
+  "seq": 43,
+  "timestamp": "2026-11-16T01:40:05Z",
+  "time_synced": true,
+  "uptime_ms": 220400,
+  "temperature_c": null,
+  "humidity_pct": null,
+  "temp_hum_source": "DHT11",
+  "light_lux": 131.0,
+  "light_raw": null,
+  "light_source": "BH1750",
+  "valid": false,
+  "sensor_faults": [
+    "TEMP_HUM_READ_FAILED"
+  ],
+  "buffered": false
+}

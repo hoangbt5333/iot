@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "author": "Group 9 - IT4735 (Node A SIM)",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht22",
+      "top": -60,
+      "left": 210,
+      "attrs": {
+        "temperature": "26.5",
+        "humidity": "60"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr",
+      "top": -40,
+      "left": -260,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_lamp",
+      "top": 90,
+      "left": -130,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_lamp",
+      "top": 55,
+      "left": -230,
+      "attrs": {
+        "color": "yellow",
+        "label": "LAMP (GPIO26)"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_fan",
+      "top": 145,
+      "left": -130,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_fan",
+      "top": 115,
+      "left": -230,
+      "attrs": {
+        "color": "cyan",
+        "label": "FAN_SIM (GPIO25)"
+      }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht22:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "dht22:GND", "esp:GND.3", "black", [ "v0" ] ],
+    [ "dht22:SDA", "esp:16", "green", [ "v0" ] ],
+    [ "ldr:VCC", "esp:3V3", "red", [ "h0" ] ],
+    [ "ldr:GND", "esp:GND.1", "black", [ "h0" ] ],
+    [ "ldr:AO", "esp:34", "purple", [ "h0" ] ],
+    [ "esp:26", "r_lamp:1", "orange", [ "h0" ] ],
+    [ "r_lamp:2", "led_lamp:A", "orange", [ "h0" ] ],
+    [ "led_lamp:C", "esp:GND.1", "black", [ "h0" ] ],
+    [ "esp:25", "r_fan:1", "blue", [ "h0" ] ],
+    [ "r_fan:2", "led_fan:A", "blue", [ "h0" ] ],
+    [ "led_fan:C", "esp:GND.1", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

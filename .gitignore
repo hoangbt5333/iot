@@ -1,0 +1,146 @@
+# ==============================================================================
+# PlatformIO & Embedded Firmware Build Artifacts
+# ==============================================================================
+.pio/
+**/.pio/
+.pio-home/
+.pioenvs/
+**/.pioenvs/
+.piolibdeps/
+**/.piolibdeps/
+build/
+**/build/
+cmake-build-*/
+
+# Compiled binaries and object files
+*.bin
+*.elf
+*.hex
+*.map
+*.eep
+*.o
+*.obj
+*.a
+*.lib
+*.d
+*.lst
+
+# Wokwi simulation temporary files & logs
+.wokwi/
+**/.wokwi/
+wokwi-*.log
+*.wokwi.log
+
+# ==============================================================================
+# IDE, Editor & Tooling Configurations
+# ==============================================================================
+# VS Code / Antigravity IDE (chứa file sinh tự động bởi PlatformIO như c_cpp_properties.json)
+.vscode/
+**/.vscode/
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (Android Studio, CLion, IntelliJ)
+.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / CDT
+.project
+.cproject
+.settings/
+
+# ==============================================================================
+# Secrets, Credentials & Sensitive Configurations
+# ==============================================================================
+.env
+.env.*
+!.env.example
+secrets.h
+**/secrets.h
+secrets.hpp
+**/secrets.hpp
+secrets.json
+**/secrets.json
+secrets.local.*
+*.secrets.*
+secrets.properties
+credentials.h
+**/credentials.h
+credentials.json
+**/credentials.json
+
+# Private keys, certificates, Android keystores
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.der
+*.csr
+*private_key*
+*privkey*
+certs/private/
+google-services.json
+
+# ==============================================================================
+# Android App (Dành cho thành viên phụ trách Mobile)
+# ==============================================================================
+.gradle/
+**/.gradle/
+local.properties
+*.apk
+*.aab
+captures/
+.cxx/
+**/cxx/
+
+# ==============================================================================
+# Backend & Node.js / Database (Dành cho thành viên phụ trách Backend)
+# ==============================================================================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+docker-compose.override.yml
+postgres_data/
+**/pgdata/
+
+# ==============================================================================
+# Office Documents Lock Files (Tránh commit file tạm khi mở Word/Excel)
+# ==============================================================================
+~$*
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ==============================================================================
+# Local AI / Scratch / Metadata
+# ==============================================================================
+/.ai-team/
+scratch/
+**/.gemini/

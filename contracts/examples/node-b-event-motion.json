@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "seq": 13,
+  "timestamp": "2026-11-16T01:41:15Z",
+  "time_synced": true,
+  "uptime_ms": 92100,
+  "event_type": "motion_detected",
+  "security_mode": "AWAY",
+  "door_open": false,
+  "motion_detected": true,
+  "alarm_on": false,
+  "trigger_source": "pir",
+  "buffered": false
+}

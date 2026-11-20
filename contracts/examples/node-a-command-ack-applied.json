@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "device_id": "node-a",
+  "boot_id": "boot-a-0001-9f2c",
+  "seq": 44,
+  "command_id": "cmd-nodea-20261116-0001",
+  "status": "applied",
+  "reason": null,
+  "applied_mode": "MANUAL",
+  "executed_at": "2026-11-16T01:40:11Z",
+  "time_synced": true,
+  "uptime_ms": 226110
+}

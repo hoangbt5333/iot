@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "online": true,
+  "reason": "connected",
+  "rssi_dbm": -61,
+  "free_heap": 186112,
+  "reconnect_count": 0,
+  "timestamp": "2026-11-16T01:39:43Z",
+  "time_synced": true,
+  "uptime_ms": 4850
+}

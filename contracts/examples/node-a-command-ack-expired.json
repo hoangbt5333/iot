@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "device_id": "node-a",
+  "boot_id": "boot-a-0002-3a14",
+  "seq": 18,
+  "command_id": "cmd-nodea-20261116-0000",
+  "status": "expired",
+  "reason": "clock_unsynced_cannot_verify_expiry",
+  "applied_mode": "AUTO",
+  "executed_at": null,
+  "time_synced": false,
+  "uptime_ms": 86050
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "command_id": "cmd-nodea-20261116-0001",
+  "device_id": "node-a",
+  "target": "lamp",
+  "action": "set",
+  "value": true,
+  "mode": "MANUAL",
+  "issued_at": "2026-11-16T01:40:10Z",
+  "expires_at": "2026-11-16T01:40:40Z",
+  "ttl_ms": 30000,
+  "require_time_sync": true
+}

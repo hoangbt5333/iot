@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "command_id": "cmd-nodeb-20261116-0001",
+  "device_id": "node-b",
+  "target": "security_mode",
+  "action": "set",
+  "value": "AWAY",
+  "issued_at": "2026-11-16T01:40:00Z",
+  "expires_at": "2026-11-16T01:40:30Z",
+  "ttl_ms": 30000,
+  "require_time_sync": true
+}

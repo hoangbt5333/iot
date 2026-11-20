@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "seq": 14,
+  "command_id": "cmd-nodeb-20261116-0003",
+  "status": "rejected",
+  "reason": "servo_angle_out_of_safe_range",
+  "applied_mode": "AWAY",
+  "executed_at": "2026-11-16T01:42:10Z",
+  "time_synced": true,
+  "uptime_ms": 147120
+}

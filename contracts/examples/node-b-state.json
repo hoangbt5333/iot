@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "seq": 15,
+  "timestamp": "2026-11-16T01:42:10Z",
+  "time_synced": true,
+  "uptime_ms": 147130,
+  "security_mode": "AWAY",
+  "door_open": false,
+  "motion_detected": false,
+  "alarm_on": false,
+  "servo_angle": 0,
+  "last_command_id": "cmd-nodeb-20261116-0001",
+  "dropped_offline_count": 0
+}

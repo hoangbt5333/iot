@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "device_id": "node-b",
+  "boot_id": "boot-b-0001-7c8d",
+  "online": false,
+  "reason": "lwt_unexpected_disconnect",
+  "timestamp": null,
+  "time_synced": false
+}

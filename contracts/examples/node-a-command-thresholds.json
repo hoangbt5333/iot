@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "command_id": "cmd-nodea-20261116-0002",
+  "device_id": "node-a",
+  "target": "thresholds",
+  "action": "update",
+  "value": {
+    "light_on_lux": 100.0,
+    "light_off_lux": 150.0,
+    "fan_on_temp_c": 30.0,
+    "fan_off_temp_c": 28.0
+  },
+  "issued_at": "2026-11-16T01:41:00Z",
+  "expires_at": "2026-11-16T01:41:30Z",
+  "ttl_ms": 30000,
+  "require_time_sync": true
+}
